@@ -430,7 +430,6 @@ _clients = [
      'repos': [
          {'usr': 'jobiols', 'repo': 'cl-iomaq', 'branch': '9.0'},
          {'usr': 'jobiols', 'repo': 'odoo-addons', 'branch': '9.0'},
-
          {'usr': 'jobiols', 'repo': 'odoo-argentina', 'branch': '9.0'},
          {'usr': 'jobiols', 'repo': 'adhoc-account-financial-tools', 'branch': '9.0'},
          {'usr': 'jobiols', 'repo': 'adhoc-miscellaneous', 'branch': '9.0'},
@@ -459,7 +458,6 @@ _clients = [
      'repos': [
          {'usr': 'jobiols', 'repo': 'cl-bulonfer', 'branch': '9.0'},
          {'usr': 'jobiols', 'repo': 'odoo-addons', 'branch': '9.0'},
-
          {'usr': 'oca', 'repo': 'connector', 'branch': '9.0'},
          {'usr': 'jobiols', 'repo': 'connector-odoo2odoo', 'branch': '9.0'},
          {'usr': 'oca', 'repo': 'connector-ecommerce', 'branch': '9.0'},
@@ -468,8 +466,6 @@ _clients = [
          {'usr': 'oca', 'repo': 'product-attribute', 'branch': '9.0'},
          {'usr': 'oca', 'repo': 'product-variant', 'branch': '9.0'},
          {'usr': 'jobiols', 'repo': 'sale-workflow', 'branch': '9.0'},
-
-
          {'usr': 'jobiols', 'repo': 'odoo-argentina', 'branch': '9.0'},
          {'usr': 'jobiols', 'repo': 'adhoc-account-financial-tools', 'branch': '9.0'},
          {'usr': 'jobiols', 'repo': 'adhoc-miscellaneous', 'branch': '9.0'},
@@ -497,13 +493,11 @@ _clients = [
      'repos': [
          {'usr': 'jobiols', 'repo': 'mario', 'branch': '9.0'},
          {'usr': 'jobiols', 'repo': 'odoo-addons', 'branch': '9.0'},
-
          {'usr': 'jobiols', 'repo': 'connector', 'branch': '9.0'},
          {'usr': 'jobiols', 'repo': 'connector-odoo2odoo', 'branch': '9.0'},
          {'usr': 'jobiols', 'repo': 'connector-prestashop', 'branch': '9.0'},
          {'usr': 'jobiols', 'repo': 'connector-ecommerce', 'branch': '9.0'},
          {'usr': 'oca', 'repo': 'bank-payment', 'branch': '9.0'},
-
          {'usr': 'ingadhoc', 'repo': 'odoo-support', 'branch': '9.0'},
          {'usr': 'jobiols', 'repo': 'odoo-argentina', 'branch': '9.0'},
          {'usr': 'jobiols', 'repo': 'adhoc-account-financial-tools', 'branch': '9.0'},
@@ -543,7 +537,6 @@ _clients = [
     {'name': 'jeo9', 'port': '8010', 'odoover': '9.0',
      'repos': [
          {'usr': 'jobiols', 'repo': 'customer', 'branch': '9.0'},
-
          {'usr': 'jobiols', 'repo': 'odoo-addons', 'branch': '9.0'},
          {'usr': 'jobiols', 'repo': 'odoo-argentina', 'branch': '9.0'},
          {'usr': 'jobiols', 'repo': 'adhoc-account-financial-tools', 'branch': '9.0'},
@@ -553,7 +546,7 @@ _clients = [
          {'usr': 'jobiols', 'repo': 'adhoc-argentina-reporting', 'branch': '9.0'},
          {'usr': 'jobiols', 'repo': 'adhoc-reporting-engine', 'branch': '9.0'},
          {'usr': 'ingadhoc', 'repo': 'argentina-sale', 'branch': '9.0'},
-         {'usr': 'ingadhoc', 'repo': 'product', 'branch': '8.0'},
+         {'usr': 'ingadhoc', 'repo': 'product', 'branch': '9.0'},
          {'usr': 'oca', 'repo': 'server-tools', 'branch': '9.0'},
          {'usr': 'oca', 'repo': 'partner-contact', 'branch': '9.0'},
          {'usr': 'oca', 'repo': 'reporting-engine', 'branch': '9.0'},
