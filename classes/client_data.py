@@ -97,6 +97,39 @@ _clients = [
          {'name': 'postgres', 'usr': 'postgres', 'ver': '9.6'},
      ]
      },
+    
+    #######################################################################
+    {'name': '80cli1', 'port': '8030', 'odoover': '8.0',
+     'repos': [
+         {'usr': 'ingadhoc', 'repo': 'odoo-argentina', 'branch': '8.0'},
+         {'usr': 'ingadhoc', 'repo': 'aeroo_reports', 'branch': '8.0'},
+         {'usr': 'ingadhoc', 'repo': 'reporting-engine', 'branch': '8.0'},
+         {'usr': 'ingadhoc', 'repo': 'account-payment', 'branch': '8.0'},
+         {'usr': 'ingadhoc', 'repo': 'stock', 'branch': '8.0'},
+         {'usr': 'OCA', 'repo': 'web', 'branch': '8.0'},
+         {'usr': 'jobiols', 'repo': 'jeo', 'branch': '8.0'},
+         {'usr': 'OCA', 'repo': 'server-tools', 'branch': '8.0'},
+         {'usr': 'ingadhoc', 'repo': 'multi-store', 'branch': '8.0'},
+         {'usr': 'OCA', 'repo': 'commission', 'branch': '8.0'},
+         {'usr': 'jobiols', 'repo': 'odoomrp-wip', 'branch': '8.0'},
+         {'usr': 'jobiols', 'repo': 'social', 'branch': '8.0'},
+         {'usr': 'OCA', 'repo': 'stock-logistics-warehouse', 'branch': '8.0'},
+         {'usr': 'OCA', 'repo': 'stock-logistics-workflow', 'branch': '8.0'},
+         {'usr': 'ingadhoc', 'repo': 'website', 'branch': '8.0'},
+         {'usr': 'jobiols', 'repo': 'serviciosbaeza-odoo-addons', 'branch': '8.0'},
+         {'usr': 'OCA', 'repo': 'crm', 'branch': '8.0'},
+         {'usr': 'ingadhoc', 'repo': 'account-financial-tools', 'branch': '8.0'},
+         {'usr': 'OCA', 'repo': 'account-financial-tools', 'branch': '8.0'},
+         {'usr': 'ingadhoc', 'repo': 'product', 'branch': '8.0'},
+         {'usr': 'OCA', 'repo': 'pos', 'branch': '8.0'},
+     ],
+     'images': [
+         {'name': 'aeroo', 'usr': 'jobiols', 'img': 'aeroo-docs'},
+         {'name': 'odoo', 'usr': 'jobiols', 'img': 'odoo-jeo', 'ver': '8.0'},
+         {'name': 'postgres', 'usr': 'postgres', 'ver': '9.5'},
+         {'name': 'backup', 'usr': 'jobiols', 'img': 'backup'},
+     ]
+     },
     #######################################################################
     {'name': 'marco', 'port': '8003', 'odoover': '8.0',
      'repos': [
