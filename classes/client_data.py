@@ -116,12 +116,12 @@ _clients = [
          {'usr': 'jobiols', 'repo': 'social', 'branch': '8.0'},
          {'usr': 'oca', 'repo': 'stock-logistics-warehouse', 'branch': '8.0'},
          {'usr': 'oca', 'repo': 'stock-logistics-workflow', 'branch': '8.0'},
-         #{'usr': 'ingadhoc', 'repo': 'adhoc-website', 'branch': '8.0'}, pide usuario y contraseña
+         {'usr': 'jobiols', 'repo': 'adhoc-website', 'branch': '8.0'}, 
          {'usr': 'jobiols', 'repo': 'serviciosbaeza-odoo-addons', 'branch': '8.0'},
          {'usr': 'jobiols', 'repo': 'crm', 'branch': '8.0'},
          {'usr': 'jobiols', 'repo': 'adhoc-account-financial-tools', 'branch': '8.0'},
          {'usr': 'oca', 'repo': 'account-financial-tools', 'branch': '8.0'},
-         {'usr': 'ingadhoc', 'repo': 'adhoc-product', 'branch': '8.0'},
+         {'usr': 'jobiols', 'repo': 'adhoc-product', 'branch': '8.0'},
          {'usr': 'jobiols', 'repo': 'pos', 'branch': '8.0'},
      ],
      'images': [
