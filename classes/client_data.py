@@ -525,7 +525,7 @@ _clients = [
      ]
      },
     #######################################################################
-    {'name': 'mario', 'port': '8069', 'odoover': '9.0',
+    {'name': 'mario', 'port': '9069', 'odoover': '9.0',
      'repos': [
          {'usr': 'jobiols', 'repo': 'mario', 'branch': '9.0'},
          {'usr': 'jobiols', 'repo': 'odoo-addons', 'branch': '9.0'},
@@ -553,7 +553,7 @@ _clients = [
      ],
      'images': [
          {'name': 'aeroo', 'usr': 'jobiols', 'img': 'aeroo-docs'},
-         {'name': 'odoo', 'usr': 'jobiols', 'img': 'odoo-jeo', 'ver': '9.0'},
+         {'name': 'odoo', 'usr': 'adhoc', 'img': 'odoo-ar', 'ver': '9.0'},
          {'name': 'postgres', 'usr': 'postgres', 'ver': '9.6'},
      ]
      },
