@@ -98,6 +98,23 @@ _clients = [
      ]
      },
     
+     #######################################################################
+    #
+    # ODOO V8 Oficial
+    #
+    #######################################################################
+    {'name': 'odoov9ce', 'port': '9009', 'odoover': '8.0',
+     'repos': [
+         #{'usr': 'jobiols', 'repo': 'cl-aramis', 'branch': '8.0', 'host': 'bitbucket'},
+         
+     ],
+     'images': [
+         {'name': 'aeroo', 'usr': 'jobiols', 'img': 'aeroo-docs'},
+         {'name': 'odoo', 'usr': 'odoo', 'img': 'odoo', 'ver': '9.0'},
+         {'name': 'postgres', 'usr': 'postgres', 'ver': '9.6'},
+     ]
+     },
+    
     #######################################################################
     {'name': '80cli1', 'port': '8030', 'odoover': '8.0',
      'repos': [
