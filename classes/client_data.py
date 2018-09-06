@@ -616,7 +616,7 @@ _clients = [
      ]
      },
     #######################################################################
-    {'name': 'plantilla_adhoc', 'port': '8020', 'odoover': '9.0',
+    {'name': 'plantilla', 'port': '8020', 'odoover': '9.0',
      'repos': [
          {'usr': 'jobiols', 'repo': 'customer', 'branch': '9.0'},
          {'usr': 'jobiols', 'repo': 'odoo-addons', 'branch': '9.0'},
@@ -636,6 +636,13 @@ _clients = [
          {'usr': 'jobiols', 'repo': 'adhoc-stock', 'branch': '9.0'},
          {'usr': 'jobiols', 'repo': 'web', 'branch': '9.0'},
          {'usr': 'marionumza', 'repo': 'artarad_theme_v9', 'branch': '9.0'},
+         {'usr': 'marionumza', 'repo': 'pos-addons', 'branch': '9.0'},
+         {'usr': 'marionumza', 'repo': 'misc-addons', 'branch': '9.0'},
+         {'usr': 'marionumza', 'repo': 'CybroAddons', 'branch': '9.0'},
+         {'usr': 'marionumza', 'repo': 'access-addons', 'branch': '9.0'},
+         {'usr': 'marionumza', 'repo': 'report_xls', 'branch': '9.0'},
+         {'usr': 'marionumza', 'repo': 'delivery-carrier', 'branch': '9.0'},
+         {'usr': 'marionumza', 'repo': 'pos', 'branch': '9.0'},
 
      ],
      'images': [
