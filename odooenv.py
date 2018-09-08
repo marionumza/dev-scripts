@@ -477,7 +477,7 @@ def run_client(e):
 
         if not e.debug_mode():
             # exponer puerto para longpolling
-            params += '-p 127.0.0.1:8072:8072 '
+            params += '-p :8072:8072 '
 
         params += '-v {}{}/config:{} '.format(cli.get_home_dir(),
                                               cli.get_name(), IN_CONFIG)
