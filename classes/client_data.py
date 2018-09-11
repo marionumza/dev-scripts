@@ -687,7 +687,31 @@ _clients = [
          {'name': 'postgres', 'usr': 'postgres', 'ver': '9.6'},
      ]
      },
+    
     #######################################################################
+    {'name': 'cl-genericov9', 'port': '98069', 'odoover': '9.0',
+     'repos': [
+         {'usr': 'marionumza', 'repo': 'cl-generico', 'branch': '11.0'},
+         {'usr': 'ingadhoc', 'repo': 'odoo-argentina', 'branch': '11.0'},
+         {'usr': 'ingadhoc', 'repo': 'account-financial-tools', 'branch': '11.0'},
+         {'usr': 'ingadhoc', 'repo': 'account-payment', 'branch': '11.0'},
+         {'usr': 'ingadhoc', 'repo': 'miscellaneous', 'branch': '11.0'},
+         {'usr': 'ingadhoc', 'repo': 'argentina-reporting', 'branch': '11.0'},
+         {'usr': 'ingadhoc', 'repo': 'reporting-engine', 'branch': '11.0'},
+         {'usr': 'ingadhoc', 'repo': 'aeroo_reports', 'branch': '11.0'},
+         {'usr': 'OCA', 'repo': 'partner-contact', 'branch': '11.0'},
+         {'usr': 'rafi16jan', 'repo': 'backend-theme', 'branch': '11.0'},
+         {'usr': 'it-projects-llc', 'repo': 'pos-addons', 'branch': '11.0'},
+         {'usr': 'it-projects-llc', 'repo': 'misc-addons', 'branch': '11.0'},
+
+     ],
+     'images': [
+         {'name': 'aeroo', 'usr': 'jobiols', 'img': 'aeroo-docs'},
+         {'name': 'odoo', 'usr': 'jobiols', 'img': 'odoo-jeo', 'ver': '9.0'},
+         {'name': 'postgres', 'usr': 'postgres', 'ver': '9.6'},
+     ]
+     },
+     #######################################################################
     {'name': 'ou', 'port': '8069', 'odoover': '9.0',
      'repos': [
          # requeridos por la localizacion argentina -- 19/12/17
