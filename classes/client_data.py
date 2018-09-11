@@ -689,6 +689,81 @@ _clients = [
      },
     
     #######################################################################
+    {'name': 'sandrab-1', 'port': '1021', 'odoover': '9.0',
+     'repos': [
+         {'usr': 'jobiols', 'repo': 'customer', 'branch': '9.0'},
+         {'usr': 'jobiols', 'repo': 'odoo-addons', 'branch': '9.0'},
+         {'usr': 'jobiols', 'repo': 'odoo-argentina', 'branch': '9.0'},
+         {'usr': 'jobiols', 'repo': 'adhoc-account-financial-tools', 'branch': '9.0'},
+         {'usr': 'jobiols', 'repo': 'adhoc-miscellaneous', 'branch': '9.0'},
+         {'usr': 'jobiols', 'repo': 'adhoc-account-payment', 'branch': '9.0'},
+         {'usr': 'jobiols', 'repo': 'adhoc-aeroo_reports', 'branch': '9.0'},
+         {'usr': 'jobiols', 'repo': 'adhoc-argentina-reporting', 'branch': '9.0'},
+         {'usr': 'jobiols', 'repo': 'adhoc-argentina-reporting', 'branch': '9.0'},
+         {'usr': 'jobiols', 'repo': 'adhoc-reporting-engine', 'branch': '9.0'},
+         {'usr': 'ingadhoc', 'repo': 'argentina-sale', 'branch': '9.0'},
+         {'usr': 'ingadhoc', 'repo': 'product', 'branch': '9.0'},
+         {'usr': 'oca', 'repo': 'server-tools', 'branch': '9.0'},
+         {'usr': 'oca', 'repo': 'partner-contact', 'branch': '9.0'},
+         {'usr': 'oca', 'repo': 'reporting-engine', 'branch': '9.0'},
+         {'usr': 'jobiols', 'repo': 'adhoc-stock', 'branch': '9.0'},
+         {'usr': 'jobiols', 'repo': 'web', 'branch': '9.0'},
+         {'usr': 'marionumza', 'repo': 'artarad_theme_v9', 'branch': '9.0'},
+         {'usr': 'marionumza', 'repo': 'pos-addons', 'branch': '9.0'},
+         {'usr': 'marionumza', 'repo': 'misc-addons', 'branch': '9.0'},
+         {'usr': 'marionumza', 'repo': 'CybroAddons', 'branch': '9.0'},
+         {'usr': 'marionumza', 'repo': 'access-addons', 'branch': '9.0'},
+         {'usr': 'marionumza', 'repo': 'report_xls', 'branch': '9.0'},
+         {'usr': 'marionumza', 'repo': 'delivery-carrier', 'branch': '9.0'},
+         {'usr': 'marionumza', 'repo': 'pos', 'branch': '9.0'},
+
+     ],
+     'images': [
+         {'name': 'aeroo', 'usr': 'jobiols', 'img': 'aeroo-docs'},
+         {'name': 'odoo', 'usr': 'jobiols', 'img': 'odoo-jeo', 'ver': '9.0'},
+         {'name': 'postgres', 'usr': 'postgres', 'ver': '9.6'},
+     ]
+     },
+
+     #######################################################################
+    {'name': 'sandrab-2', 'port': '1022', 'odoover': '9.0',
+     'repos': [
+         {'usr': 'jobiols', 'repo': 'customer', 'branch': '9.0'},
+         {'usr': 'jobiols', 'repo': 'odoo-addons', 'branch': '9.0'},
+         {'usr': 'jobiols', 'repo': 'odoo-argentina', 'branch': '9.0'},
+         {'usr': 'jobiols', 'repo': 'adhoc-account-financial-tools', 'branch': '9.0'},
+         {'usr': 'jobiols', 'repo': 'adhoc-miscellaneous', 'branch': '9.0'},
+         {'usr': 'jobiols', 'repo': 'adhoc-account-payment', 'branch': '9.0'},
+         {'usr': 'jobiols', 'repo': 'adhoc-aeroo_reports', 'branch': '9.0'},
+         {'usr': 'jobiols', 'repo': 'adhoc-argentina-reporting', 'branch': '9.0'},
+         {'usr': 'jobiols', 'repo': 'adhoc-argentina-reporting', 'branch': '9.0'},
+         {'usr': 'jobiols', 'repo': 'adhoc-reporting-engine', 'branch': '9.0'},
+         {'usr': 'ingadhoc', 'repo': 'argentina-sale', 'branch': '9.0'},
+         {'usr': 'ingadhoc', 'repo': 'product', 'branch': '9.0'},
+         {'usr': 'oca', 'repo': 'server-tools', 'branch': '9.0'},
+         {'usr': 'oca', 'repo': 'partner-contact', 'branch': '9.0'},
+         {'usr': 'oca', 'repo': 'reporting-engine', 'branch': '9.0'},
+         {'usr': 'jobiols', 'repo': 'adhoc-stock', 'branch': '9.0'},
+         {'usr': 'jobiols', 'repo': 'web', 'branch': '9.0'},
+         {'usr': 'marionumza', 'repo': 'artarad_theme_v9', 'branch': '9.0'},
+         {'usr': 'marionumza', 'repo': 'pos-addons', 'branch': '9.0'},
+         {'usr': 'marionumza', 'repo': 'misc-addons', 'branch': '9.0'},
+         {'usr': 'marionumza', 'repo': 'CybroAddons', 'branch': '9.0'},
+         {'usr': 'marionumza', 'repo': 'access-addons', 'branch': '9.0'},
+         {'usr': 'marionumza', 'repo': 'report_xls', 'branch': '9.0'},
+         {'usr': 'marionumza', 'repo': 'delivery-carrier', 'branch': '9.0'},
+         {'usr': 'marionumza', 'repo': 'pos', 'branch': '9.0'},
+
+     ],
+     'images': [
+         {'name': 'aeroo', 'usr': 'jobiols', 'img': 'aeroo-docs'},
+         {'name': 'odoo', 'usr': 'jobiols', 'img': 'odoo-jeo', 'ver': '9.0'},
+         {'name': 'postgres', 'usr': 'postgres', 'ver': '9.6'},
+     ]
+     },
+    
+    
+    #######################################################################
     {'name': 'clgenericov11', 'port': '118069', 'odoover': '11.0',
      'repos': [
          {'usr': 'marionumza', 'repo': 'cl-generico', 'branch': '11.0'},
