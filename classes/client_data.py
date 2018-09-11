@@ -691,7 +691,7 @@ _clients = [
     #######################################################################
     {'name': 'clgenericov9', 'port': '98069', 'odoover': '9.0',
      'repos': [
-         {'usr': 'marionumza', 'repo': 'cl-generico', 'branch': '11.0'},
+         #{'usr': 'marionumza', 'repo': 'cl-generico', 'branch': '11.0'},
          {'usr': 'ingadhoc', 'repo': 'odoo-argentina', 'branch': '11.0'},
          {'usr': 'ingadhoc', 'repo': 'account-financial-tools', 'branch': '11.0'},
          {'usr': 'ingadhoc', 'repo': 'account-payment', 'branch': '11.0'},
