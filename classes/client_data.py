@@ -717,6 +717,7 @@ _clients = [
          {'usr': 'marionumza', 'repo': 'delivery-carrier', 'branch': '9.0'},
          {'usr': 'marionumza', 'repo': 'pos', 'branch': '9.0'},
          {'usr': 'OCA', 'repo': 'report-print-send', 'branch': '9.0'},
+         {'usr': 'odoo', 'repo': 'odoo-extra', 'branch': '9.0'},
 
      ],
      'images': [
